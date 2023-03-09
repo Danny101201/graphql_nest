@@ -1,0 +1,5 @@
+{
+  "*.{ts,md}": ["prettier --write ."],
+  "package.json": ["prettier --write ."],
+  "*.ts": ["npm run lint"]
+}
